@@ -5,6 +5,7 @@
     "organizations": [
         {
             "name": "Oklahoma Center for Nursing",
+            "link": "https://okcenterfornursing.org/",
             "description": "The Oklahoma Center for Nursing (OCN) serves as the lead and coordinating organization, providing overall project leadership, fiscal oversight, reporting, and statewide workforce alignment. OCN ensures the framework reflects real nursing workforce needs across urban, rural, and frontier communities in Oklahoma and supports dissemination and adoption across education and practice settings.",
             "people": [
                 {
@@ -18,6 +19,7 @@
         },
         {
             "name": "OU Health Campus College of Nursing",
+            "link": "https://www.ouhsc.edu/",
             "description": "The OU Health Campus College of Nursing leads educational strategy, curriculum integration, and credential design. Faculty leadership ensures the stackable credentials align with nursing competencies, accreditation standards, and pathways spanning pre-licensure education, continuing education, and workforce development. The College also oversees evaluation related to learner confidence, readiness, and adoption.",
             "people": [
                 {
@@ -38,6 +40,7 @@
         },
         {
             "name": "OU School of Computer Science",
+            "link": "https://www.ou.edu/coe/cs",
             "description": "The University of Oklahoma School of Computer Science leads technical design and applied AI learning, developing sandboxed, non-clinical environments that allow nurses to engage with AI safely and ethically. Computer Science faculty collaborate closely with nursing leaders to translate AI concepts into accessible, practice-relevant learning experiences.",
             "people": [
                 {

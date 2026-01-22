@@ -11,16 +11,17 @@ interface PersonData {
 interface CompanyProps {
     name: string;
     description: string;
+    link: string;
     people: PersonData[];
     order: number;
 }
 
-export default function Company({ name, description, people, order }: CompanyProps) {
+export default function Company({ name, description, link, people, order }: CompanyProps) {
     return (
         <div className={`flex flex-col gap-6 sm:gap-8 md:gap-10 w-full p-20 rounded-4xl ${order % 2 === 0 ? "bg-[#1B4161]" : ""}`}>
-            <h3 className="font-bold text-[clamp(32px,3.5vw,48px)] text-[#ffa629] text-left leading-tight">
+            <a className="font-bold text-[clamp(32px,3.5vw,48px)] text-[#ffa629] text-left leading-tight underline decoration-solid" href={link} target="_blank" rel="noopener noreferrer">
                 {name}
-            </h3>
+            </a>
             <p className="font-medium text-[clamp(18px,1.8vw,24px)] text-white leading-normal text-center md:text-left">
                 {description}
             </p>

@@ -28,10 +28,10 @@ export default function Person({ name, title, description, image, imagePosition 
 
             {/* Content - Mobile: appears second, Desktop: position based on imagePosition */}
             <div className={`flex flex-col gap-4 sm:gap-6 w-full lg:flex-1 order-2 ${isImageLeft ? "lg:order-2" : "lg:order-1"}`}>
-                <h4 className="font-semibold text-[clamp(32px,3vw,48px)] text-black leading-tight">
+                <h4 className="font-semibold text-[clamp(32px,3.5vw,48px)] text-black leading-tight">
                     {name}
                 </h4>
-                <p className="font-medium text-[clamp(16px,1.5vw,20px)] text-black leading-normal">
+                <p className="font-medium text-[clamp(28px,3vw,32px)] text-black leading-normal">
                     {title}
                 </p>
                 <p className="font-medium text-[clamp(16px,1.5vw,20px)] text-black leading-normal">
