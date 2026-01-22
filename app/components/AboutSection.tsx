@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AboutSection() {
     return (
-        <section className="relative w-full bg-[#5b9acd] flex items-center justify-center px-4 sm:px-8 md:px-[110px] py-12 md:py-16 lg:py-20 min-h-[836px]" data-node-id="7:17">
+        <section className="relative w-full bg-[#5b9acd] flex items-center justify-center px-4 sm:px-8 md:px-[110px] py-12 md:py-16 lg:py-20" data-node-id="7:17">
             {/* Content Container */}
             <div className="flex flex-col lg:flex-row items-center gap-6 sm:gap-8 md:gap-12 lg:gap-[8vw] xl:gap-[147px] w-full max-w-[1920px] mx-auto relative z-20">
                 {/* Text Content - Mobile: appears first, Desktop: left side */}

@@ -4,6 +4,7 @@ import AboutSection from "./components/AboutSection";
 import ChallengeSection from "./components/ChallengeSection";
 import SolutionSection from "./components/SolutionSection";
 import AboutTeamSection from "./components/AboutTeamSection";
+import TeamOrganizationSection from "./components/TeamOrganizationSection";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <ChallengeSection />
       <SolutionSection />
       <AboutTeamSection />
+      <TeamOrganizationSection />
     </div>
   );
 }
