@@ -24,14 +24,14 @@
             "people": [
                 {
                     "name": "Helina Hoyt",
-                    "title": "OU Health Campus College of Nursing (PhD, RN, PHN (Co‑I))",
+                    "title": "OU Health Campus College of Nursing (PhD, RN, PHN (Co‑PI))",
                     "description": "Dr. Helina Hoyt leads educational strategy, credential design, and integration across nursing education and continuing education, grounded in evidence‑based and innovative practice.",
                     "image": "/assets/helina-hoyt.jpg",
                     "imagePosition": "right"
                 },
                 {
                     "name": "Karina Shreffler",
-                    "title": "OU Health Campus College of Nursing (PhD (Co‑I))",
+                    "title": "OU Health Campus College of Nursing (PhD (Co‑PI))",
                     "description": "Dr. Karina Shreffler leads evaluation and outcomes measurement related to workforce readiness, confidence, and adoption.",
                     "image": "/assets/karina-shreffler.jpg",
                     "imagePosition": "left"
@@ -45,21 +45,21 @@
             "people": [
                 {
                     "name": "Ze Shi Li",
-                    "title": "OU School of Computer Science (PhD (Co‑I))",
+                    "title": "OU School of Computer Science (PhD (Co‑PI))",
                     "description": "Dr. Ze Shi Li leads development of the sandboxed AI learning environment and applied learning activities.",
                     "image": "/assets/ze-shi-li.jpg",
                     "imagePosition": "right"
                 },
                 {
                     "name": "Sridhar Radhakrishnan",
-                    "title": "OU School of Computer Science (PhD (Co‑I))",
+                    "title": "OU School of Computer Science (PhD (Co‑PI))",
                     "description": "Dr. Sridhar Radhakrishnan leads development of the sandboxed AI learning environment and applied learning activities.",
                     "image": "/assets/sridhar-radhakrishnan.jpg",
                     "imagePosition": "left"
                 },
                 {
                     "name": "Sean Mackay",
-                    "title": "OU School of Computer Science (PhD (Co‑I))",
+                    "title": "OU School of Computer Science (PhD (Co‑PI))",
                     "description": "Dr. Sean Mackay leads pedagogy-driven educational design, bringing expertise in computing education research and educational software development.",
                     "image": "/assets/sean-mackay.jpg",
                     "imagePosition": "right"

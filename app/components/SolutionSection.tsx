@@ -22,7 +22,7 @@ export default function SolutionSection() {
                         <div className="bg-white flex items-center justify-center px-[14px] py-[11px] rounded-[86.5px] w-[173px] h-[173px] shrink-0" data-node-id="44:82">
                             <div className="relative w-[144px] h-[144px]" data-node-id="8:61">
                                 <img
-                                    src="http://localhost:3845/assets/0782dd678f942184485848a2cbf422ee4fc300ef.svg"
+                                    src="/assets/nursingLead.svg"
                                     alt="Nurse icon"
                                     className="w-full h-full"
                                 />
@@ -41,7 +41,7 @@ export default function SolutionSection() {
                         <div className="bg-white flex items-center justify-center p-[26px] rounded-[86.5px] w-[173px] h-[173px] shrink-0" data-node-id="8:90">
                             <div className="relative w-[122px] h-[122px]" data-node-id="8:92">
                                 <img
-                                    src="http://localhost:3845/assets/c13e81401cb80fec82e63f5c8620779b91bc852a.svg"
+                                    src="/assets/safeAi.svg"
                                     alt="Safety icon"
                                     className="w-full h-full"
                                 />
@@ -60,7 +60,7 @@ export default function SolutionSection() {
                         <div className="bg-white flex items-center justify-center px-[23px] py-[21px] rounded-[86.5px] w-[173px] h-[173px] shrink-0" data-node-id="8:81">
                             <div className="relative w-[127px] h-[127px]" data-node-id="8:83">
                                 <img
-                                    src="http://localhost:3845/assets/3cea72e4dc470882eb68a022046e93f517058a42.svg"
+                                    src="/assets/educationFirst.svg"
                                     alt="Education icon"
                                     className="w-full h-full"
                                 />
