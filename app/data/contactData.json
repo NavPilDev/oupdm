@@ -1,0 +1,22 @@
+{
+  "title": "Contact Us",
+  "contacts": [
+    {
+      "name": "Patrice Greenawalt",
+      "email": "patrice.greenawalt@ocn.ok.gov",
+      "phone": "405-555-0100"
+    },
+    {
+      "name": "Helina Hoyt",
+      "email": "helina.hoyt@ouhsc.edu",
+      "phone": "405-555-0200"
+    },
+    {
+      "name": "Ze Shi Li",
+      "email": "zeshi.li@ou.edu",
+      "phone": "405-555-0300"
+    }
+  ],
+  "copyright": "© 2024 AI-Ready Nurses. All rights reserved."
+}
+

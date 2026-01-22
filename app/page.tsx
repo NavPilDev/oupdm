@@ -5,6 +5,7 @@ import ChallengeSection from "./components/ChallengeSection";
 import SolutionSection from "./components/SolutionSection";
 import AboutTeamSection from "./components/AboutTeamSection";
 import TeamOrganizationSection from "./components/TeamOrganizationSection";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <SolutionSection />
       <AboutTeamSection />
       <TeamOrganizationSection />
+      <Footer />
     </div>
   );
 }

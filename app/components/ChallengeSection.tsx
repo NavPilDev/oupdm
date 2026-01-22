@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ChallengeSection() {
     return (
-        <section className="relative w-full bg-[#345b7d] flex items-center justify-center px-4 sm:px-8 md:px-[110px] py-12 md:py-16 lg:py-20 min-h-[836px]" data-node-id="8:27">
+        <section className="relative w-full bg-[#345b7d] flex items-center justify-center px-4 sm:px-8 md:px-[110px] py-12 md:py-16 lg:py-20 min-h-[800px]" data-node-id="8:27">
             {/* Content Container */}
             <div className="flex flex-col lg:flex-row items-center gap-6 sm:gap-8 md:gap-12 lg:gap-[8vw] xl:gap-[147px] w-full max-w-[1920px] mx-auto relative z-20">
                 {/* Image - Mobile: appears first, Desktop: left side */}
