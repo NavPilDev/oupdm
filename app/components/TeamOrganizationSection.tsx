@@ -27,7 +27,10 @@ export default function TeamOrganizationSection() {
                             key={index}
                             name={org.name}
                             description={org.description}
-                            people={org.people}
+                            people={org.people.map(person => ({
+                                ...person,
+                                imagePosition: person.imagePosition as "left" | "right"
+                            }))}
                             order={index}
                         />
                     ))}
