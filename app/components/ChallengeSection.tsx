@@ -28,18 +28,24 @@ export default function ChallengeSection() {
                         <p className="mb-4">
                             Nursing is currently facing a dual crisis: a massive workforce shortage and a rapidly increasing complexity in clinical care. While generative AI offers a &quot;bold and scalable&quot; way to support this workforce, current unconstrained AI interfaces are often:
                         </p>
-                        <ul className="list-disc ms-6 sm:ms-8 md:ms-12 space-y-4">
+                        <ul className="flex flex-col gap-4 list-disc ms-6 sm:ms-8 md:ms-12 space-y-4">
                             <li>
-                                <span className="underline decoration-solid">Poorly Aligned:</span>
-                                <span> Generic AI doesn&apos;t understand specific nursing workflows or pedagogical goals.</span>
+                                <span className="bg-[#5086b6] px-2 py-1" style={{ boxDecorationBreak: 'clone', WebkitBoxDecorationBreak: 'clone' }}>
+                                    <span className="underline decoration-solid">Poorly Aligned:</span>
+                                    <span> Generic AI doesn&apos;t understand specific nursing workflows or pedagogical goals.</span>
+                                </span>
                             </li>
                             <li>
-                                <span className="underline decoration-solid">High Risk:</span>
-                                <span> Unchecked outputs can pose unacceptable risks in practice-adjacent contexts.</span>
+                                <span className="bg-[#5086b6] px-2 py-1" style={{ boxDecorationBreak: 'clone', WebkitBoxDecorationBreak: 'clone' }}>
+                                    <span className="underline decoration-solid">High Risk:</span>
+                                    <span> Unchecked outputs can pose unacceptable risks in practice-adjacent contexts.</span>
+                                </span>
                             </li>
                             <li>
-                                <span className="underline decoration-solid">Overwhelming:</span>
-                                <span> Raw LLM interactions can increase cognitive load rather than reducing it.</span>
+                                <span className="bg-[#5086b6] px-2 py-1" style={{ boxDecorationBreak: 'clone', WebkitBoxDecorationBreak: 'clone' }}>
+                                    <span className="underline decoration-solid">Overwhelming:</span>
+                                    <span> Raw LLM interactions can increase cognitive load rather than reducing it.</span>
+                                </span>
                             </li>
                         </ul>
                     </div>

@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 import ChallengeSection from "./components/ChallengeSection";
 import SolutionSection from "./components/SolutionSection";
+import AboutTeamSection from "./components/AboutTeamSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <AboutSection />
       <ChallengeSection />
       <SolutionSection />
+      <AboutTeamSection />
     </div>
   );
 }
