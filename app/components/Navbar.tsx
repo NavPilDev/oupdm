@@ -37,7 +37,7 @@ export default function Navbar() {
 
             {/* Mobile Menu Button */}
             <button
-                className="md:hidden fixed top-4 left-4 z-50 p-2"
+                className="md:hidden fixed top-4 left-4 z-50 p-3 bg-white rounded-2xl"
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                 aria-label="Toggle menu"
             >

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function HeroSection() {
     return (
         <main className="flex-1 flex items-center justify-center px-4 sm:px-8 md:px-[110px] py-8 md:py-0 min-h-0 overflow-auto" data-node-id="138:2">
-            <div className="flex flex-col lg:flex-row items-center gap-6 sm:gap-8 md:gap-12 lg:gap-[8vw] xl:gap-[147px] w-full mx-auto">
+            <div className="flex flex-col lg:flex-row items-center justify-center gap-6 sm:gap-8 md:gap-12 lg:gap-[8vw] xl:gap-[147px] w-full max-w-[1920px] mx-auto">
                 {/* Nurse Illustration */}
                 <div className="flex items-center justify-center shrink-0 w-full md:w-full md:max-w-full lg:w-[40vw] lg:max-w-[843px] lg:min-w-[400px] order-1" data-node-id="3:8">
                     <div className="relative w-full max-w-[600px] md:max-w-[700px] aspect-square h-auto">

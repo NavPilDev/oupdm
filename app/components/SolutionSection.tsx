@@ -1,16 +1,16 @@
 export default function SolutionSection() {
     return (
-        <section className="relative w-full bg-white from-[#345b7d] to-[#5b9acd] flex items-center justify-center px-4 sm:px-8 md:px-[110px] py-12 md:py-16 lg:py-20 min-h-[1723px]" data-node-id="8:28">
+        <section className="relative w-full bg-white from-[#345b7d] to-[#5b9acd] flex items-center justify-center px-4 sm:px-8 md:px-[110px] py-12 md:py-16 lg:py-20" data-node-id="8:28">
             <div className="flex flex-col items-center gap-6 sm:gap-8 md:gap-12 w-full max-w-[1920px] mx-auto relative z-20">
                 {/* Header Section */}
                 <div className="flex flex-col items-center gap-4 sm:gap-6 md:gap-8 w-full text-center">
-                    <h2 className="font-bold text-[clamp(28px,3vw,40px)] text-[#5e9bcf]" data-node-id="8:29">
+                    <h2 className="font-bold text-[clamp(28px,3vw,32px)] text-[#5e9bcf]" data-node-id="8:29">
                         Our Solution
                     </h2>
-                    <h3 className="font-bold text-[clamp(40px,5vw,64px)] text-[#ffb703] underline decoration-solid leading-tight" data-node-id="8:32">
+                    <h3 className="font-bold text-[clamp(32px,3.5vw,48px)] text-[#ffb703] underline decoration-solid leading-tight" data-node-id="8:32">
                         Pedagogy-Driven Middleware
                     </h3>
-                    <p className="font-medium text-[clamp(18px,2.2vw,32px)] text-black leading-normal max-w-[1380px] px-4" data-node-id="8:30">
+                    <p className="font-medium text-[clamp(18px,1.8vw,24px)] text-black leading-normal max-w-[1380px] px-4" data-node-id="8:30">
                         We are engineering a framework that exists upon the strong foundation of general-purpose Large Language Models (LLM&apos;s), while providing a tailored, safe, nurse-oriented tool to help the nursing community. This largely female-dominated workforce has seen lower adoption of AI tools and our mission is to understand what nurses genuinely want and need from AI toolchains to then provide it.
                     </p>
                 </div>
@@ -28,10 +28,10 @@ export default function SolutionSection() {
                                 />
                             </div>
                         </div>
-                        <h4 className="font-bold text-[clamp(24px,2.5vw,32px)] text-[#ffa629] text-center w-full" data-node-id="8:59">
+                        <h4 className="font-bold text-[clamp(28px,3vw,32px)] text-[#ffa629] text-center w-full" data-node-id="8:59">
                             Nursing-Lead Development
                         </h4>
-                        <p className="font-medium text-[clamp(18px,2vw,32px)] text-white leading-normal text-center w-full" data-node-id="8:58">
+                        <p className="font-medium text-[clamp(18px,1.8vw,24px)] text-white leading-normal text-center w-full" data-node-id="8:58">
                             Our computer science partners will work directly with women in the nursing community to understand the resources they need to be successful, leading to a tool that will actually deliver on its promises.
                         </p>
                     </div>
@@ -47,10 +47,10 @@ export default function SolutionSection() {
                                 />
                             </div>
                         </div>
-                        <h4 className="font-bold text-[clamp(24px,2.5vw,36px)] text-[#ffa629] text-center w-full" data-node-id="8:89">
+                        <h4 className="font-bold text-[clamp(28px,3vw,32px)] text-[#ffa629] text-center w-full" data-node-id="8:89">
                             Safe AI Tools
                         </h4>
-                        <p className="font-medium text-[clamp(18px,2vw,30px)] text-white leading-normal text-center w-full" data-node-id="8:88">
+                        <p className="font-medium text-[clamp(18px,1.8vw,24px)] text-white leading-normal text-center w-full" data-node-id="8:88">
                             We enforce explicit safety boundaries, ensuring that no data ever leaves our tool and the local devices it is used on. We work strictly with local institutional policies and course guidelines to ensure our platform is safe for both nurses and their patients.
                         </p>
                     </div>
@@ -66,10 +66,10 @@ export default function SolutionSection() {
                                 />
                             </div>
                         </div>
-                        <h4 className="font-bold text-[clamp(24px,2.5vw,34px)] text-[#ffa629] text-center w-full" data-node-id="8:80">
+                        <h4 className="font-bold text-[clamp(28px,3vw,32px)] text-[#ffa629] text-center w-full" data-node-id="8:80">
                             Education-First Platform
                         </h4>
-                        <p className="font-medium text-[clamp(18px,2vw,30px)] text-white leading-normal text-center w-full" data-node-id="8:79">
+                        <p className="font-medium text-[clamp(18px,1.8vw,24px)] text-white leading-normal text-center w-full" data-node-id="8:79">
                             Our initial rollout aims to directly support nursing students during their education. Our computer science partners and OUHSC to ensure that our tool aligns with existing course objectives and learning goals.
                         </p>
                     </div>
