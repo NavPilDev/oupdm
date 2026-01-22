@@ -14,7 +14,9 @@ export default function AboutSection() {
                         Our Vision
                     </h3>
                     <p className="font-medium text-[clamp(18px,2.2vw,32px)] text-white leading-normal" data-node-id="7:21">
-                        We believe that nursing education and clinical training should intentionally prepare nurses to use artificial intelligence safely, ethically, and effectively to enhance patient care. Pedagogy-Driven Middleware is dedicated to bridging the gap between the power of generative AI and the rigorous safety and pedagogical requirements of nursing education and practice.
+                        <span className="bg-[#345b7d] px-2 py-1" style={{ boxDecorationBreak: 'clone', WebkitBoxDecorationBreak: 'clone' }}>
+                            We believe that nursing education and clinical training should intentionally prepare nurses to use artificial intelligence safely, ethically, and effectively to enhance patient care. Pedagogy-Driven Middleware is dedicated to bridging the gap between the power of generative AI and the rigorous safety and pedagogical requirements of nursing education and practice.
+                        </span>
                     </p>
                 </div>
 
