@@ -25,7 +25,7 @@ export default function Navbar() {
             <div className="hidden md:flex sm:flex justify-center">
                 <Image src="/assets/ocn.png" alt="Ouarin Logo" width={100} height={100} quality={100} className="w-auto h-[50px]" />
             </div>
-            <div className="hidden lg:flex gap-12 items-center font-bold text-1xl text-black">
+            <div className="hidden lg:flex gap-4 items-center font-bold text-1xl text-black">
                 <a href="/home" className="h-[46px] w-[78px] flex items-center justify-center hover:opacity-70 transition-opacity" data-node-id="3:2">
                     Home
                 </a>
