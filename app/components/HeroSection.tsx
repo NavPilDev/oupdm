@@ -34,16 +34,20 @@ export default function HeroSection() {
 
                     {/* CTA Section */}
                     <div className="flex flex-col sm:flex-row items-end justify-end sm:items-center gap-4 sm:gap-[21px] h-auto sm:h-[85px] w-full" data-node-id="8:115">
-                        {/* Primary Button */}
-                        <button className="bg-[#52718a] rounded-[57px] px-3 sm:px-[18px] py-3 sm:py-[16px] h-[30px] sm:h-[clamp(40px,5vw,50px)] flex items-center justify-center hover:bg-[#4a8bb8] transition-colors" data-node-id="3:20">
+                        {/* Primary Button → About section */}
+                        <a
+                            href="#about"
+                            className="bg-[#52718a] rounded-[57px] px-3 sm:px-[18px] py-3 sm:py-[16px] h-[30px] sm:h-[clamp(40px,5vw,50px)] flex items-center justify-center hover:bg-[#4a8bb8] transition-colors w-full sm:w-auto"
+                            data-node-id="3:20"
+                        >
                             <span className="font-bold text-lg sm:text-[clamp(16px,1.8vw,16px)] text-center text-white" data-node-id="3:21">
                                 Explore the Framework
                             </span>
-                        </button>
+                        </a>
 
-                        {/* Secondary Link */}
+                        {/* Secondary Link → Challenge section */}
                         <a
-                            href="#"
+                            href="#challenge"
                             className="font-bold text-lg sm:text-[clamp(16px,1.8vw,16px)] text-[#ffffff] underline decoration-solid h-[30px] flex items-center justify-center sm:justify-start hover:text-[#4a8bb8] transition-colors w-full sm:w-auto"
                             data-node-id="3:22"
                         >

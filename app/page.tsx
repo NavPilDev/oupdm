@@ -17,7 +17,9 @@ export default function Home() {
       <section id="about" className="scroll-mt-[100px]">
         <AboutSection />
       </section>
-      <ChallengeSection />
+      <section id="challenge" className="scroll-mt-[100px]">
+        <ChallengeSection />
+      </section>
       <section id="solution" className="scroll-mt-[100px]">
         <SolutionSection />
       </section>

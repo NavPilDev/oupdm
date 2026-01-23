@@ -6,11 +6,46 @@ interface PersonProps {
     description: string;
     image: string;
     imagePosition: "left" | "right";
+    layout?: "horizontal" | "vertical";
 }
 
-export default function Person({ name, title, description, image, imagePosition }: PersonProps) {
+export default function Person({ name, title, description, image, imagePosition, layout = "horizontal" }: PersonProps) {
     const isImageLeft = imagePosition === "left";
 
+    // Vertical card layout (for multi-person organizations / grid)
+    if (layout === "vertical") {
+        return (
+            <div className="flex flex-col items-center gap-6 sm:gap-8 w-full max-w-[340px] bg-white p-8 sm:p-10 rounded-4xl text-center">
+                {/* Image */}
+                <div className="flex items-center justify-center w-full">
+                    <div className="relative w-[220px] h-[220px] rounded-full shadow-[0px_4px_71.8px_11px_rgba(0,0,0,0.25)] overflow-hidden bg-gray-200">
+                        <Image
+                            src={image}
+                            alt={name}
+                            width={300}
+                            height={300}
+                            className="object-cover w-full h-full"
+                        />
+                    </div>
+                </div>
+
+                {/* Content */}
+                <div className="flex flex-col gap-3 sm:gap-4 w-full">
+                    <h4 className="font-semibold text-[clamp(24px,3vw,24px)] text-black leading-tight">
+                        {name}
+                    </h4>
+                    <p className="font-medium text-[clamp(18px,1.8vw,18px)] text-black leading-normal">
+                        {title}
+                    </p>
+                    <p className="font-medium text-[clamp(16px,1.6vw,16px)] text-black leading-normal">
+                        {description}
+                    </p>
+                </div>
+            </div>
+        );
+    }
+
+    // Horizontal card layout (default / single-person organization)
     return (
         <div className="flex flex-col lg:flex-row items-center lg:items-stretch gap-6 sm:gap-8 lg:gap-12 w-full bg-white p-20 rounded-4xl">
             {/* Image - Mobile: appears first, Desktop: position based on imagePosition */}
