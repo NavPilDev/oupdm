@@ -1,78 +1,48 @@
+import solutionCardsData from "../data/solutionCardsData.json";
+import SolutionCard from "./SolutionCard";
+
 export default function SolutionSection() {
     return (
         <section className="relative w-full bg-white from-[#345b7d] to-[#5b9acd] flex items-center justify-center px-4 sm:px-8 md:px-[110px] py-12 md:py-16 lg:py-20" data-node-id="8:28">
             <div className="flex flex-col items-center gap-6 sm:gap-8 md:gap-12 w-full max-w-[1920px] mx-auto relative z-20">
                 {/* Header Section */}
                 <div className="flex flex-col items-center gap-4 sm:gap-6 md:gap-8 w-full text-center">
-                    <h2 className="font-bold text-[clamp(28px,3vw,32px)] text-[#5e9bcf]" data-node-id="8:29">
+                    <h2 className="font-bold text-[clamp(24px,3vw,24px)] text-[#5e9bcf]" data-node-id="8:29">
                         Our Solution
                     </h2>
                     <h3 className="font-bold text-[clamp(32px,3.5vw,48px)] text-[#ffb703] underline decoration-solid leading-tight" data-node-id="8:32">
                         Pedagogy-Driven Middleware
                     </h3>
-                    <p className="font-medium text-[clamp(18px,1.8vw,24px)] text-black leading-normal max-w-[1380px] px-4" data-node-id="8:30">
+                    <p className="font-medium text-[clamp(20px,1.8vw,20px)] text-black leading-normal max-w-[1380px] px-4" data-node-id="8:30">
                         We are engineering a framework that exists upon the strong foundation of general-purpose Large Language Models (LLM&apos;s), while providing a tailored, safe, nurse-oriented tool to help the nursing community. This largely female-dominated workforce has seen lower adoption of AI tools and our mission is to understand what nurses genuinely want and need from AI toolchains to then provide it.
                     </p>
                 </div>
 
+                {/* YouTube Video Embed */}
+                <div className="w-full max-w-[800px] mx-auto my-8">
+                    <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+                        <iframe
+                            className="absolute top-0 left-0 w-full h-full rounded-[16px]"
+                            src="https://www.youtube.com/embed/OIG0piXRJMM"
+                            title="YouTube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowFullScreen
+                        />
+                    </div>
+                </div>
+
                 {/* Feature Cards */}
-                <div className="flex flex-col lg:flex-row items-stretch gap-6 sm:gap-8 md:gap-10 lg:gap-8 w-full mt-8" data-node-id="8:113">
-                    {/* Card 1: Nursing-Lead Development */}
-                    <div className="bg-[#3863a3] flex flex-col gap-6 sm:gap-7 items-center justify-center px-6 sm:px-8 md:px-[34px] py-12 sm:py-14 md:py-[71px] rounded-[59px] flex-1 min-h-[763px]" data-node-id="8:56">
-                        <div className="bg-white flex items-center justify-center px-[14px] py-[11px] rounded-[86.5px] w-[173px] h-[173px] shrink-0" data-node-id="44:82">
-                            <div className="relative w-[144px] h-[144px]" data-node-id="8:61">
-                                <img
-                                    src="/assets/nursingLead.svg"
-                                    alt="Nurse icon"
-                                    className="w-full h-full"
-                                />
-                            </div>
-                        </div>
-                        <h4 className="font-bold text-[clamp(28px,3vw,32px)] text-[#ffa629] text-center w-full" data-node-id="8:59">
-                            Nursing-Lead Development
-                        </h4>
-                        <p className="font-medium text-[clamp(18px,1.8vw,24px)] text-white leading-normal text-center w-full" data-node-id="8:58">
-                            Our computer science partners will work directly with women in the nursing community to understand the resources they need to be successful, leading to a tool that will actually deliver on its promises.
-                        </p>
-                    </div>
-
-                    {/* Card 2: Safe AI Tools */}
-                    <div className="bg-[#3863a3] flex flex-col gap-6 sm:gap-7 items-center justify-center px-6 sm:px-8 md:px-[40px] py-12 sm:py-14 md:py-[54px] rounded-[59px] flex-1 min-h-[763px]" data-node-id="8:86">
-                        <div className="bg-white flex items-center justify-center p-[26px] rounded-[86.5px] w-[173px] h-[173px] shrink-0" data-node-id="8:90">
-                            <div className="relative w-[122px] h-[122px]" data-node-id="8:92">
-                                <img
-                                    src="/assets/safeAi.svg"
-                                    alt="Safety icon"
-                                    className="w-full h-full"
-                                />
-                            </div>
-                        </div>
-                        <h4 className="font-bold text-[clamp(28px,3vw,32px)] text-[#ffa629] text-center w-full" data-node-id="8:89">
-                            Safe AI Tools
-                        </h4>
-                        <p className="font-medium text-[clamp(18px,1.8vw,24px)] text-white leading-normal text-center w-full" data-node-id="8:88">
-                            We enforce explicit safety boundaries, ensuring that no data ever leaves our tool and the local devices it is used on. We work strictly with local institutional policies and course guidelines to ensure our platform is safe for both nurses and their patients.
-                        </p>
-                    </div>
-
-                    {/* Card 3: Education-First Platform */}
-                    <div className="bg-[#3863a3] flex flex-col gap-6 sm:gap-7 items-center justify-center px-6 sm:px-8 md:px-[26px] py-12 sm:py-14 md:py-[54px] rounded-[59px] flex-1 min-h-[763px]" data-node-id="8:77">
-                        <div className="bg-white flex items-center justify-center px-[23px] py-[21px] rounded-[86.5px] w-[173px] h-[173px] shrink-0" data-node-id="8:81">
-                            <div className="relative w-[127px] h-[127px]" data-node-id="8:83">
-                                <img
-                                    src="/assets/educationFirst.svg"
-                                    alt="Education icon"
-                                    className="w-full h-full"
-                                />
-                            </div>
-                        </div>
-                        <h4 className="font-bold text-[clamp(28px,3vw,32px)] text-[#ffa629] text-center w-full" data-node-id="8:80">
-                            Education-First Platform
-                        </h4>
-                        <p className="font-medium text-[clamp(18px,1.8vw,24px)] text-white leading-normal text-center w-full" data-node-id="8:79">
-                            Our initial rollout aims to directly support nursing students during their education. Our computer science partners and OUHSC to ensure that our tool aligns with existing course objectives and learning goals.
-                        </p>
-                    </div>
+                <div className="flex flex-col lg:flex-row items-stretch gap-4 sm:gap-6 md:gap-6 lg:gap-4 w-full max-w-[1380px] mx-auto mt-8" data-node-id="8:113">
+                    {solutionCardsData.cards.map((card) => (
+                        <SolutionCard
+                            key={card.id}
+                            title={card.title}
+                            description={card.description}
+                            icon={card.icon}
+                            iconAlt={card.iconAlt}
+                            dataNodeId={card.dataNodeId}
+                        />
+                    ))}
                 </div>
             </div>
         </section>

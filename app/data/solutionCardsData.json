@@ -1,0 +1,28 @@
+{
+    "cards": [
+        {
+            "id": 1,
+            "title": "Nursing-Lead Development",
+            "description": "Our computer science partners will work directly with women in the nursing community to understand the resources they need to be successful, leading to a tool that will actually deliver on its promises.",
+            "icon": "/assets/nursingLead.svg",
+            "iconAlt": "Nurse icon",
+            "dataNodeId": "8:56"
+        },
+        {
+            "id": 2,
+            "title": "Safe AI Tools",
+            "description": "We enforce explicit safety boundaries, ensuring that no data ever leaves our tool and the local devices it is used on. We work strictly with local institutional policies and course guidelines to ensure our platform is safe for both nurses and their patients.",
+            "icon": "/assets/safeAi.svg",
+            "iconAlt": "Safety icon",
+            "dataNodeId": "8:86"
+        },
+        {
+            "id": 3,
+            "title": "Education-First Platform",
+            "description": "Our initial rollout aims to directly support nursing students during their education. Our computer science partners and OUHSC to ensure that our tool aligns with existing course objectives and learning goals.",
+            "icon": "/assets/educationFirst.svg",
+            "iconAlt": "Education icon",
+            "dataNodeId": "8:77"
+        }
+    ]
+}
