@@ -19,6 +19,23 @@ export default function Navbar() {
         };
     }, [isMenuOpen]);
 
+    // Smooth scroll handler
+    const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement | HTMLButtonElement>, targetId: string) => {
+        e.preventDefault();
+        const element = document.getElementById(targetId);
+        if (element) {
+            const offset = 100; // Account for sticky navbar
+            const elementPosition = element.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
+        }
+        setIsMenuOpen(false);
+    };
+
     return (
         <nav className="w-full flex justify-between items-center px-4 sm:px-18 md:px-[110px] pt-[20px] pb-3 sticky top-0 z-50 shrink-0 bg-white bg-opacity-100 shadow-sm" data-node-id="3:13">
             {/* Desktop Navigation */}
@@ -26,21 +43,24 @@ export default function Navbar() {
                 <Image src="/assets/ocn.svg" alt="Ouarin Logo" width={100} height={100} quality={100} className="w-auto h-[50px]" />
             </div>
             <div className="hidden lg:flex gap-4 items-center font-bold text-1xl text-black">
-                <a href="/home" className="h-[46px] w-[78px] flex items-center justify-center hover:opacity-70 transition-opacity" data-node-id="3:2">
+                <a href="#home" onClick={(e) => handleSmoothScroll(e, 'home')} className="h-[46px] w-[78px] flex items-center justify-center hover:opacity-70 transition-opacity" data-node-id="3:2">
                     Home
                 </a>
-                <a href="/about" className="h-[46px] w-[78px] flex items-center justify-center hover:opacity-70 transition-opacity" data-node-id="3:9">
+                <a href="#about" onClick={(e) => handleSmoothScroll(e, 'about')} className="h-[46px] w-[78px] flex items-center justify-center hover:opacity-70 transition-opacity" data-node-id="3:9">
                     About
                 </a>
-                <a href="/solution" className="h-[46px] w-[125px] flex items-center justify-center hover:opacity-70 transition-opacity" data-node-id="3:11">
+                <a href="#solution" onClick={(e) => handleSmoothScroll(e, 'solution')} className="h-[46px] w-[125px] flex items-center justify-center hover:opacity-70 transition-opacity" data-node-id="3:11">
                     Solution
                 </a>
-                <a href="/team" className="h-[46px] w-[78px] flex items-center justify-center hover:opacity-70 transition-opacity" data-node-id="3:14">
+                <a href="#team" onClick={(e) => handleSmoothScroll(e, 'team')} className="h-[46px] w-[78px] flex items-center justify-center hover:opacity-70 transition-opacity" data-node-id="3:14">
                     Team
                 </a>
             </div>
 
-            <button className="bg-[#5b9acd] px-4 py-4 rounded-full text-white font-bold text-sm hidden md:flex sm:flex">
+            <button
+                onClick={(e) => handleSmoothScroll(e, 'contact')}
+                className="bg-[#5b9acd] px-4 py-4 rounded-full text-white font-bold text-sm hidden md:flex sm:flex hover:bg-[#4a8bb8] transition-colors cursor-pointer"
+            >
                 Contact Us
             </button>
 
@@ -75,30 +95,30 @@ export default function Navbar() {
                 <div className="flex flex-col items-center justify-center h-full gap-8">
                     <Image src="/assets/ocn.png" alt="Ouarin Logo" width={100} height={100} quality={100} className="w-auto h-[50px]" />
                     <a
-                        href="/home"
+                        href="#home"
                         className="font-bold text-2xl text-black hover:opacity-70 transition-opacity"
-                        onClick={() => setIsMenuOpen(false)}
+                        onClick={(e) => handleSmoothScroll(e, 'home')}
                     >
                         Home
                     </a>
                     <a
-                        href="/about"
+                        href="#about"
                         className="font-bold text-2xl text-black hover:opacity-70 transition-opacity"
-                        onClick={() => setIsMenuOpen(false)}
+                        onClick={(e) => handleSmoothScroll(e, 'about')}
                     >
                         About
                     </a>
                     <a
-                        href="/solution"
+                        href="#solution"
                         className="font-bold text-2xl text-black hover:opacity-70 transition-opacity"
-                        onClick={() => setIsMenuOpen(false)}
+                        onClick={(e) => handleSmoothScroll(e, 'solution')}
                     >
                         Solution
                     </a>
                     <a
-                        href="/team"
+                        href="#team"
                         className="font-bold text-2xl text-black hover:opacity-70 transition-opacity"
-                        onClick={() => setIsMenuOpen(false)}
+                        onClick={(e) => handleSmoothScroll(e, 'team')}
                     >
                         Team
                     </a>

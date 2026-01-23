@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="flex flex-col items-center gap-8 sm:gap-10 md:gap-12 w-full max-w-[1920px] mx-auto">
                 {/* Contact Us Heading */}
                 <div className="flex flex-col items-start w-full">
-                    <h2 className="font-bold text-[clamp(32px,3vw,48px)] text-black leading-tight" data-node-id="14:36">
+                    <h2 className="font-bold text-[clamp(32px,3.5vw,32px)] text-black leading-tight" data-node-id="14:36">
                         {contactData.title}
                     </h2>
                     {/* Underline Rectangle */}
@@ -27,7 +27,7 @@ export default function Footer() {
                 </div>
 
                 {/* Copyright */}
-                <p className="font-light text-[clamp(12px,1.5vw,18px)] text-[#969696] text-center mt-8" data-node-id="14:47">
+                <p className="font-light text-[clamp(18px,1.8vw,18px)] text-[#969696] text-center mt-8" data-node-id="14:47">
                     {contactData.copyright}
                 </p>
             </div>
