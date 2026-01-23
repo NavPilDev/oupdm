@@ -28,7 +28,7 @@ export default function HeroSection() {
                     </h1>
 
                     {/* Description */}
-                    <p className="font-medium text-right text-base sm:text-lg md:text-xl lg:text-[clamp(16px,1.8vw,16px)] leading-relaxed text-[#ffffff] w-full" data-node-id="3:4">
+                    <p className="font-medium text-right text-base sm:text-lg md:text-xl lg:text-[clamp(18px,1.8vw,18px)] leading-relaxed text-[#ffffff] w-full" data-node-id="3:4">
                         A nursing-first AI framework with stackable credentials, ethical training, and hands-on learning. Built in partnership with OU Computer Science and OU Health & Sciences.
                     </p>
 
