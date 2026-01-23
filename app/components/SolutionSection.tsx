@@ -10,10 +10,10 @@ export default function SolutionSection() {
                     <h2 className="font-bold text-[clamp(24px,3vw,24px)] text-[#5e9bcf]" data-node-id="8:29">
                         Our Solution
                     </h2>
-                    <h3 className="font-bold text-[clamp(32px,3.5vw,48px)] text-[#ffb703] underline decoration-solid leading-tight" data-node-id="8:32">
+                    <h3 className="font-bold text-[clamp(32px,3.5vw,32px)] text-[#ffb703] underline decoration-solid leading-tight" data-node-id="8:32">
                         Pedagogy-Driven Middleware
                     </h3>
-                    <p className="font-medium text-[clamp(20px,1.8vw,20px)] text-black leading-normal max-w-[1380px] px-4" data-node-id="8:30">
+                    <p className="font-medium text-[clamp(18px,1.8vw,18px)] text-black leading-normal max-w-[1380px] px-4" data-node-id="8:30">
                         We are engineering a framework that exists upon the strong foundation of general-purpose Large Language Models (LLM&apos;s), while providing a tailored, safe, nurse-oriented tool to help the nursing community. This largely female-dominated workforce has seen lower adoption of AI tools and our mission is to understand what nurses genuinely want and need from AI toolchains to then provide it.
                     </p>
                 </div>
