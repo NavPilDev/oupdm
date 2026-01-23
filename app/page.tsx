@@ -10,8 +10,8 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <div className="min-h-screen bg-white flex flex-col" data-node-id="138:3">
+      <Navbar />
       <div className="min-h-screen flex flex-col md:overflow-hidden lg:overflow-hidden">
-        <Navbar />
         <HeroSection />
       </div>
       <AboutSection />
@@ -20,6 +20,7 @@ export default function Home() {
       <AboutTeamSection />
       <TeamOrganizationSection />
       <Footer />
+
     </div>
   );
 }

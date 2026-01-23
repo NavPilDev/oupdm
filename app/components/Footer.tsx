@@ -22,7 +22,6 @@ export default function Footer() {
                             index={index}
                             name={contact.name}
                             email={contact.email}
-                            phone={contact.phone}
                         />
                     ))}
                 </div>

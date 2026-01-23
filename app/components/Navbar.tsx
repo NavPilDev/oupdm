@@ -18,9 +18,9 @@ export default function Navbar() {
     }, [isMenuOpen]);
 
     return (
-        <nav className="w-full flex justify-center pt-[41px] pb-0 relative z-50 shrink-0" data-node-id="3:13">
+        <nav className="w-full flex justify-center pt-[20px] pb-0 sticky top-0 z-50 shrink-0 bg-white" data-node-id="3:13">
             {/* Desktop Navigation */}
-            <div className="hidden md:flex gap-12 items-center font-bold text-2xl text-black">
+            <div className="hidden md:flex gap-12 items-center font-bold text-1xl text-black">
                 <a href="/home" className="h-[46px] w-[78px] flex items-center justify-center hover:opacity-70 transition-opacity" data-node-id="3:2">
                     Home
                 </a>
