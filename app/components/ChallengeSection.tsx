@@ -21,7 +21,7 @@ export default function ChallengeSection() {
 
                 {/* Text Content - Mobile: appears second, Desktop: right side */}
                 <div className="flex flex-col gap-4 sm:gap-6 md:gap-8 w-full lg:w-[40vw] lg:max-w-[755px] lg:min-w-[300px] order-2 lg:order-2" data-node-id="7:25">
-                    <h2 className="font-bold text-[clamp(32px,3.5vw,32px)] text-[#ffb703] underline decoration-solid leading-tight" data-node-id="7:24">
+                    <h2 className="font-bold text-[clamp(32px,3.5vw,32px)] text-[#ffb703] leading-tight underline underline-offset-10 decoration-solid decoration-[#ffb703]" data-node-id="7:24">
                         The Challenge
                     </h2>
                     <div className="font-medium text-[clamp(18px,1.8vw,18px)] text-white leading-normal">

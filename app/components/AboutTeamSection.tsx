@@ -11,7 +11,7 @@ export default function AboutTeamSection() {
                         <h2 className="font-bold text-[clamp(24px,3vw,24px)] text-[#5b9acd] bg-white px-2 py-1 inline-block w-fit" data-node-id="8:172">
                             Our Team
                         </h2>
-                        <h3 className="font-bold text-[clamp(32px,3.5vw,32px)] text-[#F59810] underline decoration-solid leading-tight" data-node-id="8:174">
+                        <h3 className="font-bold text-[clamp(32px,3.5vw,32px)] text-[#F59810] leading-tight underline underline-offset-10 decoration-solid decoration-[#ffb703]" data-node-id="8:174">
                             <span className="bg-[#ffffff] px-2 py-1" style={{ boxDecorationBreak: 'clone', WebkitBoxDecorationBreak: 'clone' }}>
                                 About our Team
                             </span>
