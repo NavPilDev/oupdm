@@ -23,7 +23,7 @@ export default function Navbar() {
         <nav className="w-full flex justify-between items-center px-4 sm:px-18 md:px-[110px] pt-[20px] pb-3 sticky top-0 z-50 shrink-0 bg-white bg-opacity-100 shadow-sm" data-node-id="3:13">
             {/* Desktop Navigation */}
             <div className="hidden md:flex sm:flex justify-center">
-                <Image src="/assets/ocn.png" alt="Ouarin Logo" width={100} height={100} quality={100} className="w-auto h-[50px]" />
+                <Image src="/assets/ocn.svg" alt="Ouarin Logo" width={100} height={100} quality={100} className="w-auto h-[50px]" />
             </div>
             <div className="hidden lg:flex gap-4 items-center font-bold text-1xl text-black">
                 <a href="/home" className="h-[46px] w-[78px] flex items-center justify-center hover:opacity-70 transition-opacity" data-node-id="3:2">
