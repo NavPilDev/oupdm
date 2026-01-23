@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white flex flex-col" data-node-id="138:3">
       <Navbar />
-      <div className="min-h-screen flex flex-col md:overflow-hidden lg:overflow-hidden">
+      <div className="flex flex-col md:overflow-hidden lg:overflow-hidden">
         <HeroSection />
       </div>
       <AboutSection />

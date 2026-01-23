@@ -20,7 +20,7 @@ export default function Navbar() {
     }, [isMenuOpen]);
 
     return (
-        <nav className="w-full flex justify-between items-center px-4 sm:px-18 md:px-[110px] pt-[20px] pb-3 sticky top-0 z-50 shrink-0 bg-[#ffffff]" data-node-id="3:13">
+        <nav className="w-full flex justify-between items-center px-4 sm:px-18 md:px-[110px] pt-[20px] pb-3 sticky top-0 z-50 shrink-0 bg-white bg-opacity-100 shadow-sm" data-node-id="3:13">
             {/* Desktop Navigation */}
             <div className="hidden md:flex sm:flex justify-center">
                 <Image src="/assets/ocn.png" alt="Ouarin Logo" width={100} height={100} quality={100} className="w-auto h-[50px]" />
