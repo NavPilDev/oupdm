@@ -23,7 +23,7 @@ export default function HeroSection() {
                     {/* Heading */}
                     <h1 className="font-bold text-right text-2xl sm:text-3xl md:text-4xl lg:text-[clamp(32px,3.5vw,43.6px)] leading-tight text-[#ffffff] w-full" data-node-id="3:5">
                         <span className="bg-[#13335E]" style={{ boxDecorationBreak: 'clone', WebkitBoxDecorationBreak: 'clone' }}>
-                            Pedagogy-Driven Middleware
+                            AI-Ready Nurses
                         </span>
                     </h1>
 
