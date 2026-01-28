@@ -33,7 +33,7 @@ export default function AboutSection() {
 
                 <p className="font-medium text-[clamp(18px,1.8vw,18px)] text-black text-center max-w-[735px] leading-relaxed" data-node-id="7:21">
                     <span className=" px-2 py-1" style={{ boxDecorationBreak: 'clone', WebkitBoxDecorationBreak: 'clone' }}>
-                        We believe that nursing education and clinical training should intentionally prepare nurses to use artificial intelligence safely, ethically, and effectively to enhance patient care. <span className="font-bold ">Pedagogy-Driven Middleware</span> is dedicated to bridging the gap between the power of generative AI and the rigorous safety and pedagogical requirements of nursing education and practice.
+                        We believe that nursing education and clinical training should intentionally prepare nurses to use artificial intelligence safely, ethically, and effectively to enhance patient care. <span className="font-bold ">AI Ready Nurses</span> is dedicated to bridging the gap between the power of generative AI and the rigorous safety and pedagogical requirements of nursing education and practice.
                     </span>
                 </p>
             </div>

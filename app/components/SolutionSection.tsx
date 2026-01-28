@@ -11,7 +11,7 @@ export default function SolutionSection() {
                         Our Solution
                     </h2>
                     <h3 className="font-bold text-[clamp(32px,3.5vw,32px)] text-[#ffb703] leading-tight underline underline-offset-10 decoration-solid decoration-[#ffb703]" data-node-id="8:32">
-                        Pedagogy-Driven Middleware
+                        Nursing-First AI Framework
                     </h3>
                     <p className="font-medium text-[clamp(18px,1.8vw,18px)] text-black leading-normal max-w-[1380px] px-4" data-node-id="8:30">
                         We are engineering a framework that exists upon the strong foundation of general-purpose Large Language Models (LLM&apos;s), while providing a tailored, safe, nurse-oriented tool to help the nursing community. This largely female-dominated workforce has seen lower adoption of AI tools and our mission is to understand what nurses genuinely want and need from AI toolchains to then provide it.
