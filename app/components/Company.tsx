@@ -57,7 +57,7 @@ export default function Company({
             description={person.description}
             image={person.image}
             imagePosition={person.imagePosition}
-            layout="vertical"
+            layout={hasMultiplePeople ? "vertical" : "horizontal"}
           />
         ))}
       </div>
