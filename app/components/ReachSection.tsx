@@ -28,7 +28,7 @@ export default function ReachSection() {
                                 Statewide Transformation
                             </h3>
                             <p className="font-medium text-[clamp(16px,1.6vw,18px)] text-[#ffffff] leading-relaxed text-left" data-node-id="reach:7">
-                                Targeting 7,700+ practicing nurses across 59 rural Oklahoma counties to improve healthcare outcomes in a state currently ranked 45th in the U.S.
+                                Targeting 7,700+ practicing nurses across Oklahoma to improve healthcare outcomes in a state currently ranked 45th in the U.S.
                             </p>
                         </div>
 
