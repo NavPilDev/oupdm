@@ -39,12 +39,12 @@ export default function ChallengeSection() {
           <div className="font-medium text-[clamp(18px,1.8vw,18px)] text-white leading-normal">
             <p className="mb-4">
               Nursing is currently facing a dual crisis: a massive workforce
-              shortage and a rapidly increasing complexity in clinical care. As
-              a predominantly female workforce, nurses are at the center of how
-              AI can expand economic opportunity and sustainable careers for
-              women across the nursing lifecycle. While generative AI offers a
-              &quot;bold and scalable&quot; way to support this workforce,
-              current unconstrained AI interfaces are often:
+              shortage and a rapidly increasing complexity in clinical care.
+              Nurses are at the center of how AI can expand economic opportunity
+              and sustainable careers across the nursing lifecycle. While
+              generative AI offers a &quot;bold and scalable&quot; way to
+              support this workforce, current unconstrained AI interfaces are
+              often:
             </p>
             <ul className="flex flex-col gap-4 list-disc ms-6 sm:ms-8 md:ms-12 space-y-4">
               <li>
@@ -61,7 +61,7 @@ export default function ChallengeSection() {
                   <span>
                     {" "}
                     Generic AI doesn&apos;t understand specific nursing
-                    workflows, pedagogical goals, or the gendered realities of
+                    workflows, pedagogical goals, or the realities of
                     nurses&apos; work and career pathways.
                   </span>
                 </span>

@@ -29,11 +29,11 @@ export default function SolutionSection() {
             We are engineering a scalable solution that builds on the strong
             foundation of general-purpose Large Language Models (LLM&apos;s)
             while providing nursing-centered AI infrastructure, stackable
-            credentials, and hands-on AI learning experiences. This largely
-            female-dominated workforce has seen lower adoption of AI tools, and
-            our mission is to embed AI across the nursing lifecycle and to
-            understand what nurses genuinely want and need from AI toolchains to
-            then provide it in ways that support the nursing workforce.
+            credentials, and hands-on AI learning experiences. The nursing
+            workforce has seen lower adoption of AI tools, and our mission is to
+            embed AI across the nursing lifecycle and to understand what nurses
+            genuinely want and need from AI toolchains to then provide it in
+            ways that support the nursing workforce.
           </p>
         </div>
 
