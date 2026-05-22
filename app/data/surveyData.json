@@ -1,7 +1,7 @@
 {
   "eyebrow": "SURVEY · MAY 2026 · OKLAHOMA CENTER FOR NURSING",
   "title": "What Oklahoma nurses are telling us about AI",
-  "intro": "In May 2026, our lead partner the Oklahoma Center for Nursing surveyed practicing Oklahoma nurses on their experience with, attitudes toward, and concerns about artificial intelligence in nursing work, education, and professional practice. The findings reveal a workforce that is already adopting AI ahead of training — and asking for help.",
+  "intro": "In May 2026, our lead partner the Oklahoma Center for Nursing surveyed practicing Oklahoma nurses on their experience with, attitudes toward, and concerns about artificial intelligence in nursing work, education, and professional practice. The findings reveal a workforce that is already adopting AI ahead of training, and asking for help.",
   "headlineStats": [
     {
       "value": "78%",
@@ -57,6 +57,6 @@
   },
   "callout": {
     "title": "WHAT THIS MEANS FOR AI-READY NURSES",
-    "body": "Oklahoma nurses are open to AI — 41% positive, another 35% neutral — and the large majority are already using it without a safety net. The combination of widespread adoption (78%) with near-universal absence of training (91%) and strong demand for it (81%) is exactly the gap our nursing-first AI framework, stackable credentials, and hands-on learning experiences are designed to close."
+    "body": "Oklahoma nurses are open to AI (41% positive, another 35% neutral), and the large majority are already using it without a safety net. The combination of widespread adoption (78%) with near-universal absence of training (91%) and strong demand for it (81%) is exactly the gap our nursing-first AI framework, stackable credentials, and hands-on learning experiences are designed to close."
   }
 }

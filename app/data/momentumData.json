@@ -1,7 +1,7 @@
 {
   "eyebrow": "MOMENTUM · 2026",
   "title": "The work is already underway",
-  "intro": "AI-Ready Nurses is grounded in the active statewide work of our lead partner, the Oklahoma Center for Nursing. The committees, programs, partnerships, and convenings below are running now — providing the infrastructure, audience, and dissemination pathways our framework will plug directly into.",
+  "intro": "AI-Ready Nurses is grounded in the active statewide work of our lead partner, the Oklahoma Center for Nursing. The committees, programs, partnerships, and convenings below are running now, providing the infrastructure, audience, and dissemination pathways our framework will plug directly into.",
   "items": [
     {
       "id": "helius",
@@ -24,7 +24,7 @@
       "id": "leadership-summit",
       "tag": "CONVENING · SEPTEMBER 29, 2026",
       "title": "Third Annual OCN Leadership Summit",
-      "body": "The annual statewide Summit convenes OCN's full stakeholder group: nurses across all educational levels, nursing educators and leaders, employers of nurses, and professional and state nursing organizations — providing a built-in dissemination pathway for project findings, credential rollouts, and AI-readiness training.",
+      "body": "The annual statewide Summit convenes OCN's full stakeholder group: nurses across all educational levels, nursing educators and leaders, employers of nurses, and professional and state nursing organizations, providing a built-in dissemination pathway for project findings, credential rollouts, and AI-readiness training.",
       "icon": "Users",
       "accentColor": "#ffb703"
     },
@@ -40,7 +40,7 @@
       "id": "advisory-committees",
       "tag": "ONGOING · MEETS EVERY OTHER MONTH",
       "title": "Four Advisory Committees driving statewide priorities",
-      "body": "The OCN Board of Directors established four standing Advisory Committees — each addressing a priority area identified by Oklahoma nursing stakeholders. Committees meet every other month and shape the direction of statewide nursing workforce strategy.",
+      "body": "The OCN Board of Directors established four standing Advisory Committees, each addressing a priority area identified by Oklahoma nursing stakeholders. Committees meet every other month and shape the direction of statewide nursing workforce strategy.",
       "icon": "Calendar",
       "accentColor": "#345b7d",
       "extras": [
@@ -54,7 +54,7 @@
       "id": "national-presentation",
       "tag": "NATIONAL RECOGNITION · 2ND CONSECUTIVE YEAR",
       "title": "National presentation on Oklahoma's workforce data methodology",
-      "body": "For the second consecutive year, OCN's Executive Director and two Advisory Committee Members have been selected to present Understanding Approaches and Challenges Associated with Accessing, Collecting, Analyzing, and Interpreting Workforce Data, drawn from the launch of Oklahoma's statewide clinical placement software platform — the infrastructure that ensures effective utilization of clinical sites for student nurse training.",
+      "body": "For the second consecutive year, OCN's Executive Director and two Advisory Committee Members have been selected to present Understanding Approaches and Challenges Associated with Accessing, Collecting, Analyzing, and Interpreting Workforce Data, drawn from the launch of Oklahoma's statewide clinical placement software platform, the infrastructure that ensures effective utilization of clinical sites for student nurse training.",
       "icon": "Trophy",
       "accentColor": "#5b9acd"
     }
