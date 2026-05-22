@@ -2,8 +2,10 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 import ChallengeSection from "./components/ChallengeSection";
+import SurveySection from "./components/SurveySection";
 import SolutionSection from "./components/SolutionSection";
 import ReachSection from "./components/ReachSection";
+import MomentumSection from "./components/MomentumSection";
 import AboutTeamSection from "./components/AboutTeamSection";
 import TeamOrganizationSection from "./components/TeamOrganizationSection";
 import Footer from "./components/Footer";
@@ -21,11 +23,17 @@ export default function Home() {
       <section id="challenge" className="scroll-mt-[100px]">
         <ChallengeSection />
       </section>
+      <section id="evidence" className="scroll-mt-[100px]">
+        <SurveySection />
+      </section>
       <section id="solution" className="scroll-mt-[100px]">
         <SolutionSection />
       </section>
       <section id="reach" className="scroll-mt-[100px]">
         <ReachSection />
+      </section>
+      <section id="momentum" className="scroll-mt-[100px]">
+        <MomentumSection />
       </section>
       <section id="team" className="scroll-mt-[100px]">
         <AboutTeamSection />

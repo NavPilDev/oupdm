@@ -1,0 +1,62 @@
+{
+  "eyebrow": "MOMENTUM · 2026",
+  "title": "The work is already underway",
+  "intro": "AI-Ready Nurses is grounded in the active statewide work of our lead partner, the Oklahoma Center for Nursing. The committees, programs, partnerships, and convenings below are running now — providing the infrastructure, audience, and dissemination pathways our framework will plug directly into.",
+  "items": [
+    {
+      "id": "helius",
+      "tag": "LATEST · MAY 2026",
+      "title": "Partnership with Helius Health AI: transition-to-practice initiative",
+      "body": "OCN launched a new initiative in partnership with Helius Health AI to support nurses in the first three years of practice after licensure, with the goal of strengthening transition-to-practice and increasing nurse retention. Participants begin with a personality-based assessment that identifies the clinical specialty areas best matched to their personality and strengths, followed by periodic (every 3–6 months) check-ins over an extended period.",
+      "footnote": "Info sheet available on request.",
+      "icon": "Handshake",
+      "accentColor": "#345b7d"
+    },
+    {
+      "id": "faculty-academy",
+      "tag": "EDUCATION & TRAINING · RECRUITMENT OPENS MAY 2026",
+      "title": "Oklahoma Nurse Faculty Academy: micro-credential for new clinical educators",
+      "body": "A workgroup of OCN's Education & Training Advisory Committee is launching a six-month micro-credential training program for nurses new to teaching in the clinical setting. The program combines an in-person meeting, eight learning modules, and structured collaboration with a mentor. Recruitment for the inaugural cohort of 20 scholarship recipients opens May 2026, with the cohort beginning August 2026.",
+      "icon": "Award",
+      "accentColor": "#5b9acd"
+    },
+    {
+      "id": "leadership-summit",
+      "tag": "CONVENING · SEPTEMBER 29, 2026",
+      "title": "Third Annual OCN Leadership Summit",
+      "body": "The annual statewide Summit convenes OCN's full stakeholder group: nurses across all educational levels, nursing educators and leaders, employers of nurses, and professional and state nursing organizations — providing a built-in dissemination pathway for project findings, credential rollouts, and AI-readiness training.",
+      "icon": "Users",
+      "accentColor": "#ffb703"
+    },
+    {
+      "id": "founders-dinner",
+      "tag": "INAUGURAL · SEPTEMBER 29, 2026",
+      "title": "Inaugural OCN Founders Dinner",
+      "body": "The first-ever OCN Founders Dinner recognizes those who have supported the foundational creation, mission, and work of the Oklahoma Center for Nursing. The event also serves as a fundraising opportunity to sustain and expand OCN's statewide programming.",
+      "icon": "Utensils",
+      "accentColor": "#F59810"
+    },
+    {
+      "id": "advisory-committees",
+      "tag": "ONGOING · MEETS EVERY OTHER MONTH",
+      "title": "Four Advisory Committees driving statewide priorities",
+      "body": "The OCN Board of Directors established four standing Advisory Committees — each addressing a priority area identified by Oklahoma nursing stakeholders. Committees meet every other month and shape the direction of statewide nursing workforce strategy.",
+      "icon": "Calendar",
+      "accentColor": "#345b7d",
+      "extras": [
+        "Career Pathways",
+        "Education & Training",
+        "Policy & Funding",
+        "Recruitment & Retention"
+      ]
+    },
+    {
+      "id": "national-presentation",
+      "tag": "NATIONAL RECOGNITION · 2ND CONSECUTIVE YEAR",
+      "title": "National presentation on Oklahoma's workforce data methodology",
+      "body": "For the second consecutive year, OCN's Executive Director and two Advisory Committee Members have been selected to present Understanding Approaches and Challenges Associated with Accessing, Collecting, Analyzing, and Interpreting Workforce Data, drawn from the launch of Oklahoma's statewide clinical placement software platform — the infrastructure that ensures effective utilization of clinical sites for student nurse training.",
+      "icon": "Trophy",
+      "accentColor": "#5b9acd"
+    }
+  ]
+}

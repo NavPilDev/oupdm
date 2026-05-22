@@ -1,0 +1,62 @@
+{
+  "eyebrow": "SURVEY · MAY 2026 · OKLAHOMA CENTER FOR NURSING",
+  "title": "What Oklahoma nurses are telling us about AI",
+  "intro": "In May 2026, our lead partner the Oklahoma Center for Nursing surveyed practicing Oklahoma nurses on their experience with, attitudes toward, and concerns about artificial intelligence in nursing work, education, and professional practice. The findings reveal a workforce that is already adopting AI ahead of training — and asking for help.",
+  "headlineStats": [
+    {
+      "value": "78%",
+      "label": "have used an AI tool for something related to their nursing work, education, or professional role",
+      "icon": "Stethoscope"
+    },
+    {
+      "value": "91%",
+      "label": "received no formal training on how to use AI tools in nursing or healthcare",
+      "icon": "GraduationCap"
+    },
+    {
+      "value": "81%",
+      "label": "would like to see training or resources on AI use in nursing",
+      "icon": "BookOpen"
+    },
+    {
+      "value": "90%",
+      "label": "are concerned about the accuracy of AI-generated information",
+      "icon": "AlertTriangle"
+    }
+  ],
+  "usageSection": {
+    "title": "How nurses are using AI",
+    "subtitle": "Among those who reported using AI for something:",
+    "barColor": "#5b9acd",
+    "items": [
+      { "label": "Research / literature searching", "percent": 37 },
+      { "label": "Data analysis / quality improvement", "percent": 30 },
+      { "label": "Studying clinical concepts", "percent": 22 }
+    ]
+  },
+  "sentimentSection": {
+    "title": "Sentiment & confidence",
+    "subtitle": "How nurses feel about AI in nursing today:",
+    "barColor": "#5b9acd",
+    "items": [
+      { "label": "Feel positive / very positive", "percent": 41 },
+      { "label": "Feel neutral", "percent": 35 },
+      { "label": "Self-identify as beginner or \"don't know how\"", "percent": 39 },
+      { "label": "Neutral / negative confidence in judging AI accuracy", "percent": 53 }
+    ]
+  },
+  "concernsSection": {
+    "title": "Top concerns",
+    "subtitle": "What worries nurses about AI in their field:",
+    "barColor": "#345b7d",
+    "items": [
+      { "label": "Accuracy of AI-generated information", "percent": 90 },
+      { "label": "Not knowing which tools are safe to use", "percent": 62 },
+      { "label": "Bias or unfair recommendations", "percent": 47 }
+    ]
+  },
+  "callout": {
+    "title": "WHAT THIS MEANS FOR AI-READY NURSES",
+    "body": "Oklahoma nurses are open to AI — 41% positive, another 35% neutral — and the large majority are already using it without a safety net. The combination of widespread adoption (78%) with near-universal absence of training (91%) and strong demand for it (81%) is exactly the gap our nursing-first AI framework, stackable credentials, and hands-on learning experiences are designed to close."
+  }
+}
